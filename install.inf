@@ -1,0 +1,99 @@
+[info]
+title=Encode
+desc=Allows to encode text using many transformations (Base64, URL escape, HTML/XML escape, Hash, etc)
+type=py-plugin
+subdir=syn_encode
+homepage=
+
+[ini1]
+section=Commands
+id=Encode\HTML Entitize
+params=html_entitize
+[ini2]
+section=Commands
+id=Encode\HTML Deentitize
+params=html_deentitize
+[ini11]
+section=Commands
+id=Encode\CSS Escape
+params=css_escape
+[ini12]
+section=Commands
+id=Encode\CSS Unescape
+params=css_unescape
+[ini21]
+section=Commands
+id=Encode\XML Entitize
+params=xml_entitize
+[ini22]
+section=Commands
+id=Encode\XML Deentitize
+params=xml_deentitize
+[ini31]
+section=Commands
+id=Encode\Safe HTML Entitize
+params=safe_html_entitize
+[ini32]
+section=Commands
+id=Encode\Safe HTML Deentitize
+params=safe_html_deentitize
+[ini41]
+section=Commands
+id=Encode\JSON Escape
+params=json_escape
+[ini42]
+section=Commands
+id=Encode\JSON Unescape
+params=json_unescape
+[ini51]
+section=Commands
+id=Encode\URL Encode
+params=url_encode
+[ini52]
+section=Commands
+id=Encode\URL Decode
+params=url_decode
+[ini60]
+section=Commands
+id=Encode\MD5
+params=md5_encode
+[ini61]
+section=Commands
+id=Encode\SHA256
+params=sha256_encode
+[ini62]
+section=Commands
+id=Encode\SHA512
+params=sha512_encode
+[ini70]
+section=Commands
+id=Encode\Base64 Encode
+params=base64_encode
+[ini71]
+section=Commands
+id=Encode\Base64 Decode
+params=base64_decode
+[ini80]
+section=Commands
+id=Encode\Escape regex
+params=escape_regex
+[ini81]
+section=Commands
+id=Encode\Escape LIKE
+params=escape_like
+[ini90]
+section=Commands
+id=Encode\Decimal to Hexadecimal
+params=dec_hex
+[ini91]
+section=Commands
+id=Encode\Hexadecimal to Decimal
+params=hex_dec
+[ini92]
+section=Commands
+id=Encode\Unicode to Hexadecimal
+params=unicode_hex
+[ini93]
+section=Commands
+id=Encode\Hexadecimal to Unicode
+params=hex_unicode
